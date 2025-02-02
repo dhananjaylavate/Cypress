@@ -2,7 +2,4 @@ node --version
 npm init
 npm install cypress --save-dev  --- > to install cypress
 npx cypress open  ---> to open the cypress	
-
-
-
 cypress uses mocha.mocha is like a testnng which is used to write test cases
