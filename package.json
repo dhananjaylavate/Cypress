@@ -11,6 +11,8 @@
   "author": "Dhananjay Lavate",
   "license": "ISC",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
     "cypress": "^13.13.2"
   }
 }
