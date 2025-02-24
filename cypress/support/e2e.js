@@ -20,5 +20,4 @@ import './commands'
 // require('./commands')
 
 import '@badeball/cypress-cucumber-preprocessor';
-
 import '@shelex/cypress-allure-plugin';

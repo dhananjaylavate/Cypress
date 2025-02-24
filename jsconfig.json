@@ -6,7 +6,10 @@
     "compilerOptions": {
       "target": "ES6",
       "module": "commonjs",
+      "allowJs": true,
       "baseUrl": "./",
+      "types": ["@shelex/cypress-allure-plugin"],
+      "noEmit": true,
       "paths": {
         "@support/*": ["cypress/support/*"],
         "@fixtures/*": ["cypress/fixtures/*"],
