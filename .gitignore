@@ -1,4 +1,6 @@
 node_modules/
 commands.txt/
 screenshots/
-fixtures/firstNames.json
+fixtures//
+allure-results/
+allure-report/

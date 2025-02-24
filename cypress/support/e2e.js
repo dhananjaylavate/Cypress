@@ -18,3 +18,7 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+import '@badeball/cypress-cucumber-preprocessor';
+
+import '@shelex/cypress-allure-plugin';
