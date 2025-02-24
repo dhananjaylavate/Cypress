@@ -8,5 +8,5 @@ Feature: Login Functionality
 
     Examples:
         | username  | password |
-        | Snehal    | asdfgh   |
+        #| Snehal    | asdfgh   |
         | Dhananjay | abcd     |

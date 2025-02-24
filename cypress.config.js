@@ -8,6 +8,7 @@ module.exports = defineConfig({
   reporter: "cypress-mochawesome-reporter",
   reporterOptions:{
     charts : true,
+    resultsDir: "allure-results",
     reportPageTitle: "custom-title",
     embeddedScreenshots: true,
     inlineAssets: true,
@@ -27,6 +28,10 @@ module.exports = defineConfig({
       
     
       return config;
+    },
+    env: {
+        allureReuseAfterSpec: true,
+        allure:true
     },
     specPattern: "cypress/e2e/**/*.feature",
     
