@@ -1,3 +1,17 @@
+// {
+//     "include": ["./node_modules/cypress", "cypress/e2e/**/*.js"]
+// }
+
 {
-    "include": ["./node_modules/cypress", "cypress/**/*.js"]
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "baseUrl": "./",
+      "paths": {
+        "@support/*": ["cypress/support/*"],
+        "@fixtures/*": ["cypress/fixtures/*"],
+        "@stepDefinitions/*": ["cypress/e2e/features/step_definitions/*"]
+      }
+    }
   }
+  
