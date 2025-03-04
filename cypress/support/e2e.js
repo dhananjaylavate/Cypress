@@ -21,3 +21,5 @@ import './commands'
 
 import '@badeball/cypress-cucumber-preprocessor';
 import '@shelex/cypress-allure-plugin';
+
+import 'cypress-plugin-api'
